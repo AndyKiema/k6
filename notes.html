@@ -10,6 +10,19 @@
         <h2>Spike testing</h2>
         <p>testing system's performance under sudden and extreme load increases</p>
         <h2>Stress testing</h2>
-        <p></p>type of performance testing where the system is pushed to its limit to determine its breaking point</p>
+        <p>type of performance testing where the system is pushed to its limit to determine its breaking point</p>
+        <h2>Important performance metrics</h2>
+        <h3>http_req_duration</h3>
+        <p>This is the time taken to complete the http requests</p>
+        <p>avg=143.92ms min=17.09ms med=240.75ms max=616.48ms p(90)=262.72ms p(95)=273.46ms</p>
+        <p>Here is an interpretation of the result above:</p>
+        <ul>
+            <li><strong>avg:</strong> average time for the requests was 143.92ms</li>
+            <li><strong>min:</strong> fastest request took 17.09ms</li>
+            <li><strong>med:</strong> half of the requests took less than 240.75ms</li>
+            <li><strong>max:</strong> slowest request took 616.48ms</li>
+            <li><strong>p(90):</strong> 90% of requests request took 262.72ms or less</li>
+            <li><strong>p(95):</strong> 95% of requests request took 273.46ms or less</li>
+        </ul>
     </body>
 </html>
