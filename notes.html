@@ -32,5 +32,18 @@
         <p>This is the percentage of failed requests</p>
         <p>http_req_failed................: 0.00%  0 out of 402</p>
         <p>This shows that 0% of requests failed</p>
+        <h3>http_req_waiting</h3>
+        <p>Time spent waiting for the server to respond</p>
+        <P>avg=295ms min=12.16ms med=239.26ms max=2.8s    p(90)=996.28ms p(95)=1.27s</P>
+        <p>Here is an interpretation of the result above:</p>
+        <ul>
+            <li><strong>avg:</strong> average server response was 295ms</li>
+            <li><strong>min:</strong> fastest server response time was 12.16ms</li>
+            <li><strong>med:</strong> half of the requests had a TTFB(Time to First Byte) less than 239.26ms</li>
+            <li><strong>max:</strong> slowest server response 2.8s</li>
+            <li><strong>p(90):</strong> 90% of requests had a TTFB OF 996.28ms or less</li>
+            <li><strong>p(95):</strong> 95% of requests had a TTFB OF 1.27s or less</li>
+        </ul>
+        <p><strong>TTFB- time between sending a request to a server and receiving the first byte of the response</strong></p>
     </body>
 </html>
