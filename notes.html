@@ -68,7 +68,13 @@
         <h3>http_req_failed</h3>
         <p>Goal is <strong>0%</strong></p>
         <p><strong>Anything more than 0% is a source of concern</strong></p>
-        <h2>Recommendations</h2>
-        <p>If http_req_waiting is high: </p>
+        <h2>What to test</h2>
+        <ul>
+            <li>Main pages- test them individually</li>
+            <li>API endpoint behind the main pages- to be tested individually</li>
+            <li>Main processes</li>
+            <li>Bottleneck prone actions- actions prone to breaking e.g <strong>Payment processes, file uploading</strong></li>
+        </ul>
+        <!--Add  soak, scalability and volume testing-->
     </body>
 </html>
