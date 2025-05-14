@@ -53,6 +53,22 @@
         <p>Total number of requests completed</p>
         <p>402    7.9004/s</p>
         <p>This shows that the test executed 402 requests and  7.9004 requests were executed per second</p>
-        
+        <h2>Performance Metric Values Analysis</h2>
+        <h3>http_req_duration</h3>
+        <p><strong>More than 1s-</strong> needs investigation</p>
+        <p><strong>More than 3s-</strong> critical</p>
+        <p><strong>More than 1s-</strong> needs investigation</p>
+        <p><strong>Less than 500ms-</strong> good</p>
+        <p><strong>Less than 1s-</strong> acceptable</p>
+        <h3>http_req_waiting(TTFB)</h3>
+        <p><strong>Less than 200ms-</strong> good</p>
+        <p><strong>Less than 500ms-</strong> acceptable</p>
+        <p><strong>More than 500ms-</strong> slow backend</p>
+        <p><strong>More than 1s-</strong> very slow</p>
+        <h3>http_req_failed</h3>
+        <p>Goal is <strong>0%</strong></p>
+        <p><strong>Anything more than 0% is a source of concern</strong></p>
+        <h2>Recommendations</h2>
+        <p>If http_req_waiting is high: </p>
     </body>
 </html>
